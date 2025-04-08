@@ -1,0 +1,78 @@
+body{
+    font-size: 20px;
+}
+
+
+header{
+    display:flex;/*definie o meu layout flexivel para eu alterar os elementos*/
+    align-items: center; /*alinhar os itens verticalmente ao centro*/
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+header .profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20%;
+}
+
+header .links a{
+    text-decoration: none;
+    color: #00b0e6; 
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.descricao{text-align: center;
+    margin: 20px;
+}
+
+.conteudo{
+    display:flex;
+    justify-content: space-around;
+    margin: 20%;
+}
+
+.bloco{
+    width: 30%;
+    background-color: aliceblue;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    display: inline-block;
+text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+
+    border: 1px solid #addd ;
+    border-radius: 8px;
+}
+
+.final{
+    display:flex;
+    justify-content: space-around;
+    margin: 20%;    
+}
+
+.blocofim{
+    width: 30%;
+    background-color: aliceblue;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 10px;
+}
