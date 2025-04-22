@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilo.css" />
@@ -9,10 +12,7 @@
   <body>
     <header>
       <div class="profile">
-        <img
-          src="foto.perfil.jpg"
-          alt="foto de uma pessoa dentro de quadra com a bola no pé"
-        />
+        <img src="foto.perfil.jpg" alt="foto de uma pessoa dentro de quadra com a bola no pé"/>
       </div>
       <div class="links">
         <a target="_blank" href="http://github.com">github</a>
@@ -20,9 +20,13 @@
         <a target="_blank" href="http://instagram.com">instagram</a>
       </div>
     </header>
+    
     <section class="descricao">
-      <p>Meu nome é Wallyson,tenho 16 anos e estudo no ifmt de campo verde</p>
+      <p>Meu nome é Wallyson,tenho 16 anos e estudo no ifmt de campo verde
+      </p>
+      <button id="botao"> continue aqui</button>
     </section>
+
     <section class="conteudo">
       <div class="bloco">
         <h2>experiencias anteriores</h2>
@@ -39,28 +43,37 @@
     </section>
     <section class="falacomigo" >
       <h2>interessado no meu curriculo</h2>
-      <form >
+      <form action="https://formspree.io/f/myzwykqp"
+      method="POST" >
         <label for="email">email:</label>
         <input placeholder="exemplo@gmail.com" id="email" name="email" required>
         <label for="telefone"> telefone: </label>
         <input placeholder="66****-****" id="telefone"
         name="telefone" required >
-        <button type="submit"> entrar em contato</button>
+        <button  id="botao" type="submit"> entrar em contato</button>
      </form>
     </section>
+
     <section class="final">
       <div class="blocofim">
+        <div id="card">
         <h2>sobre mim</h2>
         <p>adione aqui informarçoes sobre quem voce é suas paixoes e objetivos</p>
       </div>
+    </div>
+
       <div  class="blocofim">
         <h2>meu canal</h2><iframe width="410" height="305" src="https://www.youtube.com/embed/BceKbpyFwds?si=KYWLcX29-kf99NgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
+
       <div  class="blocofim">
         <h2>mensagem positiva</h2>
         <p>o sucesso é a soma dos pequenos esforços repetidos dia apos dia</p>
       </div>
+
     </section>
 
+
+    <script src="index.js"></script>
   </body>
 </html>

@@ -1,3 +1,11 @@
+*{
+
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 body{
     font-size: 20px;
 }
@@ -22,37 +30,49 @@ header .links a{
     color: #00b0e6; 
     font-weight: bold;
     margin: 0 10px;
+    font-size: 20px;
+    font-family:"Poetsen Um"
+
 }
 
-.descricao{text-align: center;
+h2{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.descricao{
+    text-align: center;
     margin: 20px;
 }
-
 .conteudo{
     display:flex;
     justify-content: space-around;
     margin: 20%;
 }
-
 .bloco{
     width: 30%;
     background-color: aliceblue;
     padding: 15px;
-    border: 1px solid;
+    border: 1px solid aliceblue; 
     border-radius: 10px;
-}
 
+}
 .falacomigo{
     text-align: center;
     margin: 20px;
+
 }
 form{
     display: inline-block;
 text-align: left;
+
 }
 form label{
     display: block;
     margin: 5px 0;
+
 }
 form input{
     width: 100%;
@@ -61,14 +81,13 @@ form input{
 
     border: 1px solid #addd ;
     border-radius: 8px;
-}
 
+}
 .final{
     display:flex;
     justify-content: space-around;
     margin: 20%;    
 }
-
 .blocofim{
     width: 30%;
     background-color: aliceblue;
